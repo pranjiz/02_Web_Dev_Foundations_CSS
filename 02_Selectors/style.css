@@ -1,0 +1,35 @@
+/* *{
+    font-family: monospace;
+    border: 1px solid red;
+} */
+
+body {
+    font-size: 22px;
+}
+
+/* h1 h2 implies its looking for h2 inside h1 */
+
+h1, h2{
+    color: blueviolet;
+}
+
+p {
+    color: purple;
+}
+
+p{
+    color: red;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
