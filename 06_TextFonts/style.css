@@ -1,0 +1,47 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        /* Typography is the way that text
+        is arranged and presented. */
+    
+        body {
+            padding: 25%;
+            /* padding: 10%; */
+            font-size:2rem;
+            /* font-family: sans-serif;
+            font-family: monospace;
+            font-family: fantasy; */
+            font-family: 'Roboto',sans-serif;
+            
+        }
+         
+        /* input,button{
+            font: inherit;
+        } */
+
+        p {
+            /* text-decoration: underline;
+            text-decoration: overline;
+            text-decoration: line-through;
+            text-decoration: none; */
+
+            /* text-transform: capitalize;
+            text-transform: lowercase;
+            text-transform: uppercase;
+            text-align: left;
+            text-align: justify;
+            text-align: right;
+            text-indent: 2em; */
+
+            /* line-height: 1.5;
+            letter-spacing: 1em;
+            letter-spacing: 0.25em; */
+
+            word-spacing: 2em;
+            word-spacing: 0.5em;
+
+            font-weight: normal;
+            font-weight: lighter;
+
+            font-style: italic;
+            font-style: oblique;
+            font-style: normal;
+        }

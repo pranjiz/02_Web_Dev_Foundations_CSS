@@ -1,0 +1,44 @@
+/* p {
+    font-size: 16px;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100vw;
+    This should not be done as it brings scroll bar on the bottom too */
+    width: 100%;
+    min-height:100vh;
+}
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main {
+    width: 50vw;
+    background-color: skyblue;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    /* 
+       font-size: 2em;
+    */
+    width: 40ch;
+}
+
