@@ -30,6 +30,7 @@ body {
   background-repeat: repeat-y, no-repeat;
   background-position: right center; */
   
+  /* This above code 3 lines does the same work as below 1 line code does, this is there to make writing code shorter.*/
   background: repeat-y right center url("../img/bubbles.png"), no-repeat linear-gradient(to left, steelblue, #fff);
   background-size: 20%, auto;
 }
@@ -85,6 +86,8 @@ body {
   width: 25%;
   height: auto;
 }
+
+/* In this the text is there having the image as in content of the alphabets. In the below code */
 
 .clip {
   font-weight: 800;
