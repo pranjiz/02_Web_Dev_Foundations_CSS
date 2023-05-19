@@ -29,7 +29,7 @@
     --SHADOWS: 0 6px 5px -5px var(--DARK-COLOR);
     --BORDERS:2px solid var(--DARK-COLOR);
 }
-
+/*  On changing the prefer color scheme to light or any other variable the background changes to light theme*/
 @media(prefers-color-scheme: dark)
 {
     :root {
