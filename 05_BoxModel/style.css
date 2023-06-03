@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* Calculation includes the content, border and the padding instead of just the content */
 }
 
 /* h1 {
